@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Navbar from './Navbar';
-import Container from './Container';
+import Container from './components/container';
 // import Footer from './Footer';
 // import Banner from './Banner';
 // import images from '../images';
@@ -33,7 +33,7 @@ class ClickyGame extends Component {
   // used to shuffle the array of images when the DOM loads, and when an image is clicked
   shuffleArray() {
     // creates a copy of the current characters array to modify it by value, and not by reference
-    const newArr = images.slice();
+    // const newArr = images.slice();
 
     // will store the shuffled array
     const shuffleArr = [];
@@ -41,9 +41,9 @@ class ClickyGame extends Component {
     // each loop through an index gets spliced from newArr, reducing its length
     // gets a random index based off the current length of newArr
     // splices the value from newArr, and pushes it to shuffleArr
-    while (newArr.length > 0) {
-      shuffleArr.push(newArr.splice(Math.floor(Math.random() * newArr.length), 1)[0]);
-    }
+    // while(newArr.length > 0) {
+    //   shuffleArr.push(newArr.splice(Math.floor(Math.random() * newArr.length), 1)[0]);
+    // }
 
     return shuffleArr;
   }
@@ -111,19 +111,19 @@ class ClickyGame extends Component {
     const state = this.state;
     return (
       <div>
-        <Navbar
+        {/* <Navbar
           score={state.score}
           highScore={state.highScore}
           navMessage={state.navMessage}
           navMsgColor={state.navMsgColor}
         />
-        <Banner />
+        <Banner /> */}
         <Container
           shake={state.shake}
           characters={state.allCharacters}
           clickEvent={this.clickEvent}
         />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
