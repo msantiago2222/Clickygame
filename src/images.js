@@ -8,8 +8,10 @@ import catsix from './images/catsix.png';
 import catseven from './images/catseven.png';
 import cateight from './images/cateight.png';
 import catnine from './images/catnine.png';
+import catten from './images/catten.png';
 import cateleven from './images/cateleven.png';
 import cattweleve from './images/cattweleve.png';
+
 
 const images = [
   cat,
@@ -22,6 +24,7 @@ const images = [
   catseven,
   cateight,
   catnine,
+  catten,
   cateleven,
   cattweleve
 ];

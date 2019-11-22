@@ -2,7 +2,7 @@ import React from 'react';
 import './container.css';
 import Character from '../character';
 
-// main container for each Character component
+// main container for each Character component 
 // loops through each index in props.characters, which contains an array of character images
 // to create a new Character component for each image
 // attaches the passed down clickEvent function to each Character component

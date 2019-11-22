@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-// import Navbar from './Navbar';
+// import Navbar from './navbar';
 import Container from './components/container';
-// import Footer from './Footer';
-// import Banner from './Banner';
-// import images from '../images';
+// import Footer from './footer';
+// import Banner from './banner';
+// import Images from './images.js';
 
 class ClickyGame extends Component {
   state = {
