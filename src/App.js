@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Container from './components/container';
 // import Footer from './footer';
 // import Banner from './banner';
-// import Images from './images.js';
+import images from './images';
 
 class ClickyGame extends Component {
   state = {

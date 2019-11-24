@@ -1,5 +1,6 @@
 import React from 'react';
-import './images.js';
+import './character.css';
+import './images';
 
 // the onClick function is defined as a callback so that the clicked elements value
 // can be passed to props.clickEvent to check if the image has been clicked or not
